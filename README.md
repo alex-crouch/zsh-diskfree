@@ -49,7 +49,7 @@ You can configure the plugin by editing `zsh-diskfree.conf` at `${ZSH_CUSTOM:-~/
 
 ## Auto-Updating Prompt (Optional)
 
-To make your prompt automatically update when idle at a prompt (useful for seeing disk space changes), add these lines to the top of your theme file, the `TMOUT` value is the refresh rate in seconds:
+To make your prompt automatically update when idle at a prompt, add these lines to the top of your theme file, the `TMOUT` value is the refresh rate in seconds:
 
 ```bash
 TMOUT=1
