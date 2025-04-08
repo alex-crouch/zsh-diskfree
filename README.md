@@ -15,7 +15,7 @@ Oh My Zsh plugin that displays the free space available on your disk right in yo
 1. Clone this repository to your Oh My Zsh custom plugins directory:
 
 ```bash
-git clone https://github.com/yourusername/zsh-diskfree.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-diskfree
+git clone https://github.com/alex-crouch/zsh-diskfree.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-diskfree
 ```
 
 2. Add the plugin to your `.zshrc` file:
