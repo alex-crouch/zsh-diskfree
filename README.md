@@ -45,7 +45,11 @@ omz reload
 
 ## Configuration
 
-You can configure the plugin by editing `zsh-diskfree.conf` at `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-diskfree/zsh-diskfree.conf` or by adding environment variables to .zshrc eg. `export ZSH_DISKFREE_UNIT_GAP=1`. The variable names can be found in the configuration file and just need the `ZSH_DISKFREE_` prefix.
+You can configure the plugin by editing the config file:
+```bash
+nano ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-diskfree/zsh-diskfree.conf
+```
+or by adding environment variables to .zshrc eg. `export ZSH_DISKFREE_UNIT_GAP=1`. The variable names can be found in the configuration file and just need the `ZSH_DISKFREE_` prefix.
 
 ## Auto-Updating Prompt (Optional)
 
