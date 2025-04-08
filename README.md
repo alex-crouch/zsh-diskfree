@@ -26,11 +26,12 @@ plugins=(... zsh-diskfree)
 
 3. Integrate with your theme
 
-To diplay the disk info on your prompt just edit your theme file and put the prompt call `$(diskfree_prompt_info)` into the prompt variable. For example with the robbyrussell theme:
+To diplay the disk info on your prompt just edit your theme file and put the prompt call `$(diskfree_prompt_info)` into the prompt variable.
 
 ```bash
 nano ${ZSH:-~/.oh-my-zsh}/themes/$ZSH_THEME.zsh-theme
 ```
+For example with the robbyrussell theme:
 
 ```bash
 PROMPT='%(?:%{$fg_bold[green]%}%1{➜%} :%{$fg_bold[red]%}%1{➜%} ) $(diskfree_prompt_info) %{$fg[cyan]%}%c%{$reset_color%}'
